@@ -1,0 +1,126 @@
+body{
+    margin: 0 5px;
+    padding: 0 0 ;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+section{
+    display: flex;
+    flex-basis: 3;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+    background: linear-gradient(-21deg, #ffa600 50%, transparent 50%, transparent 95%, #ffa600 95%);
+    /* background: linear-gradient(45deg, #ffa600 15%, #ffffff 15%, #ffffff 85%, #ffa600 85%),
+    linear-gradient(-45deg, #ffa600 15%, #ffffff 15%, #ffffff 85%, #ffa600 85%);
+border: #ffa600 solid 2px;
+background-blend-mode: multiply; */
+}
+.food-info{
+ 
+    color:black;
+    font-weight: 400;
+    margin-bottom: 50px;
+    border-radius: 10px;
+  
+}
+section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+}
+
+section a{
+    text-decoration: none;
+background: #faf752;
+margin: 10px 0 0 30px;
+padding: 7px 15px;
+border-radius: 10px;
+color:rgb(71, 27, 1);
+font-weight: 600;
+}
+section a:hover{
+    color: red;
+}
+
+section p{
+    max-width:300px ;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+/* blend mode learning */
+
+.third{
+background: url(../asserts/images/animal3.jpg),linear-gradient(to top, rgb(165, 91, 42) 0%, yellow 25%,transparent 10%, transparent);
+background-size: contain;
+height: 300px;
+background-repeat: no-repeat;
+width: 450px;
+background-blend-mode: luminosity;
+
+
+}
+
+.second img:first-child{
+position: absolute;
+mix-blend-mode:hard-light;
+
+}
+.second img{
+width: 450px;
+height: 300px;
+}
+.second img:first-child{
+    background: white;
+    opacity: 1;
+}
+
+
+.blend img{
+    width: 300px;
+    height: 300px;
+
+}
+footer{position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 5;
+    background: #000;
+    color: white;
+    font-size: small;
+    padding-bottom: 40px;
+
+}
+footer .block{
+text-align: center;
+margin-bottom: 40px;
+}
+
+
+.copyright{
+    position: absolute;
+    margin-top: 20px;
+    bottom: 0;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+hr{
+    color: white;
+    margin-bottom: ;
+    width: 95vw;
+    margin: auto auto;
+}
+
+
+#ffa600
